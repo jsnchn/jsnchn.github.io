@@ -1,4 +1,4 @@
-var t = new Trianglify({noiseIntensity:0,cellsize:60});
+var t = new Trianglify({noiseIntensity:0,cellsize:40});
 var intro = document.getElementsByTagName("body")[0];
 var pattern = t.generate(intro.clientWidth, intro.clientHeight);
 $(intro).css({'background-image':pattern.dataUrl});

@@ -12,6 +12,7 @@ html,body{
 body {
     font-family: 'hans_kendrickregular', sans-serif;
     color: #556270;
+    background-size: cover;
 }
 #wrap{
 	height: 100%;
@@ -19,7 +20,7 @@ body {
 }
 a{
     text-decoration: none;
-    color: #490A3D;
+    color: #0B486B;
 }
 .refract{
     transition: text-shadow 0.2s;
@@ -34,8 +35,9 @@ a{
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-70%);
-    width: 300px;
-    font-size: 18px;
+    max-width: 400px;
+    width: 80%;
+    font-size: 16px;
     font-weight: 200;
     line-height: 30px;
     text-align: left;
@@ -79,13 +81,13 @@ a{
   /*background-color: blue;*/
   height: 100% !important;
   top: 0 !important;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 #logo i .component{
   width: 25%;
   position: absolute;
   background-color: #556270;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 #logo i .component.left{
   left: 0;
