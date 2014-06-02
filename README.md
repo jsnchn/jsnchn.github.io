@@ -1,2 +1,2 @@
 Personal Site
-(jsnchn.com)[http://www.jsnchn.com]
+[jsnchn.com](http://www.jsnchn.com)
