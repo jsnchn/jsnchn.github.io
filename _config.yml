@@ -1,3 +1,4 @@
 highlighter: pygments
 github: []
-exclude: [Gemfile,Gemfile.lock,CNAME]
+source: src
+destination: site
