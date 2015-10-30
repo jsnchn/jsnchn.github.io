@@ -1,2 +1,2 @@
 default:
- - uglify
+  - uglify

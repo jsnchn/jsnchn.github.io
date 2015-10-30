@@ -1,4 +1,4 @@
 highlighter: pygments
 github: []
 source: src
-destination: site
+destination: _site
