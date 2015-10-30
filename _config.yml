@@ -1,4 +1,10 @@
 highlighter: pygments
 github: []
-source: src
-destination: _site
+exclude:
+  - grunt
+  - node_modules
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - package.json
