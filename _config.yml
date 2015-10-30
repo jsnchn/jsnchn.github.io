@@ -3,8 +3,10 @@ github: []
 exclude:
   - grunt
   - node_modules
+  - bower_components
   - CNAME
   - Gemfile
   - Gemfile.lock
   - Gruntfile.js
   - package.json
+  - bower.json

@@ -1,0 +1,25 @@
+{
+  "name": "Jason Chen",
+  "description": "Personal Site",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Jason Chen"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jsnchn/jsnchn.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3"
+  },
+  "devDependencies": {
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

@@ -1,0 +1,8 @@
+default:
+  - sass:dev
+  - uglify
+  - exec:run_bundle_jekyll_serve_like_github
+
+production:
+  - sass:dist
+  - uglify
