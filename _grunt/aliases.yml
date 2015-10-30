@@ -1,4 +1,5 @@
 default:
+  - copy
   - sass
   - uglify
   - exec:run_bundle_jekyll_serve_like_github

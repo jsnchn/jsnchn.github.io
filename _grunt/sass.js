@@ -6,7 +6,7 @@ module.exports = {
       noCache: true
     },
     files: {
-      'styles.css': '_src/css/**/*.scss',
+      'css/styles.css': '_src/css/main.scss',
     }
   }
 };

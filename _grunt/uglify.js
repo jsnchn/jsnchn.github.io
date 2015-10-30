@@ -1,12 +1,12 @@
 module.exports = {
   vendor: {
     files: {
-      'vendor.js': []
+      'js/vendor.js': []
     }
   },
   user: {
     files: {
-      'scripts.js': ['_src/js/**/*.js']
+      'js/scripts.js': ['_src/js/**/*.js']
     }
   }
 };
