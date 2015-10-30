@@ -8,14 +8,5 @@ module.exports = {
     files: {
       'styles.css': '_src/css/**/*.scss',
     }
-  },
-  dev: {
-    options: {
-      style: 'compressed',
-      noCache: true
-    },
-    files: {
-      'styles.css': '_src/css/**/*.scss',
-    }
-  },
+  }
 };
