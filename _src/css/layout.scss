@@ -1,3 +1,18 @@
-#thingus{
-  display:block;
+body{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+a{
+  color: SlateGrey;
+  text-decoration: none;
+  &:hover{
+    color: black;
+  }
+}
+.contact{
+  a{
+    font-size: 32px;
+    margin: 0 16px;
+    padding: 5px;
+  }
 }

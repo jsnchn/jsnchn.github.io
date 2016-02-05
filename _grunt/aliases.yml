@@ -1,5 +1,9 @@
 default:
-  - copy
+  # - copy
   - sass
   - uglify
+  - jekyll:development
+  - browserSync
+  - watch
+run_lik_github:
   - exec:run_bundle_jekyll_serve_like_github

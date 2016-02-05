@@ -1,7 +1,7 @@
 module.exports = {
   vendor: {
     files: {
-      'js/vendor.js': []
+      'js/vendor.js': ['bower_components/mouse-proximity.js/dist/js/mouse-proximity.min.js']
     }
   },
   user: {

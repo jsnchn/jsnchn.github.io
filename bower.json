@@ -20,7 +20,8 @@
     "normalize-css": "~3.0.3"
   },
   "devDependencies": {
-    "font-awesome": "fontawesome#~4.4.0",
-    "normalize-scss": "~3.0.3"
+    "normalize-scss": "~3.0.3",
+    "mouse-proximity.js": "mouse-proximity#^1.0.3",
+    "csshake": "*"
   }
 }
