@@ -2,6 +2,13 @@ body{
   font-family: 'Dosis', sans-serif;
   text-align: center;
 }
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
 a{
   color: SlateGrey;
   text-decoration: none;
